@@ -7953,6 +7953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8643328623559659028, guid: 3658647086296934b948ee6f788a1efd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1030463584c6a5443918399bbf0d89a8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3658647086296934b948ee6f788a1efd, type: 3}
 --- !u!1 &1011419410 stripped
@@ -7978,6 +7982,7 @@ MonoBehaviour:
   Creature_Damage: 10
   Speed: 10
   waypoints: []
+  curWaypointIndex: 0
   previous_Speed: 10
   anim: {fileID: 0}
   Enemy_Hp: {fileID: 0}
