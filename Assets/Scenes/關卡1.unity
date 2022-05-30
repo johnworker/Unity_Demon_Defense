@@ -7976,18 +7976,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c229e11395ac8ea42ac079cee5b3a768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootElement: {fileID: 0}
-  bullet: {fileID: 0}
-  Enemybug: {fileID: 0}
-  Creature_Damage: 10
-  Speed: 10
-  waypoints: []
-  curWaypointIndex: 0
-  previous_Speed: 10
-  anim: {fileID: 0}
-  Enemy_Hp: {fileID: 0}
-  target: {fileID: 1381290938}
-  EnemyTarget: {fileID: 1381290937}
 --- !u!1001 &1013629553
 PrefabInstance:
   m_ObjectHideFlags: 0
